@@ -1,0 +1,9 @@
+.activity {
+  margin: 50px;
+  border: 10px ridge white;
+  background-color: rgb(255, 217, 0);
+  color: black;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}

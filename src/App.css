@@ -1,0 +1,66 @@
+.app__header {
+  text-align: center;
+  border-bottom: 0.5px inset white;
+  padding: 10px;
+  margin: 0;
+  background-image: linear-gradient(to right, black, dodgerBlue, black);
+  color: white;
+}
+
+.input {
+  width: 80%;
+  margin: 100px;
+  margin-top: 1px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  align-items: center;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  color: white;
+}
+
+.input:focus {
+  border-color: dodgerBlue;
+}
+
+.container__title {
+  margin: 100px;
+}
+
+.app__activity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: fixed;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 70px;
+  margin: 100px;
+  margin-top: 1px;
+  padding: 10px;
+  background: none;
+  color: white;
+  border: 3px solid dodgerblue;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+  transition: all 500ms ease-in-out;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.submitBtn:hover {
+  background: white;
+  color: black;
+}

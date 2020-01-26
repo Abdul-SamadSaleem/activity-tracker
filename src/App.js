@@ -14,6 +14,7 @@ const App = () => {
   }, []);
 
   const addActivity = () => {
+    console.log("adding activity");
     db.collection("trackings").add({ activity: activityInput });
   };
 

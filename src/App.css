@@ -8,13 +8,13 @@
 }
 
 .input {
-  width: 80%;
-  margin: 100px;
-  margin-top: 1px;
+  width: 90%;
+  margin: 110px;
+  margin-top: 2px;
   outline: none;
-  padding: 8px;
+  padding: 10px;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: 0.4s;
   align-items: center;
   background: none;
   border: none;
